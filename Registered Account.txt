@@ -1,0 +1,19 @@
+Email: AlexSmith@gmail.com
+Password: Password_1
+
+Mr.
+Alex
+Smith
+Male
+01/01/2001
+SSN: 456-78-9123
+
+Home Phone: (353) 489-7273
+Street Address:219-5654 Enim Road
+Locality: Salem
+Region: Georgia
+Postal Code: 33265
+Country: United States
+
+
+
