@@ -37,17 +37,18 @@ public class LoginStep {
         Assert.assertEquals("http://dbankdemo.com/bank/home", url);
         boolean isTitleDisplayed = driver.findElement(By.xpath("//*[@id='left-panel']/nav/div[1]/a[1]/img")).isDisplayed();
         Assert.assertTrue(isTitleDisplayed);
+        System.out.println("Login Successful");
     }
 
     @Then("User login unsuccessful")
     public void user_login_unsuccessful(){
         String errorMessage = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[2]/div")).getText();
         Assert.assertTrue(errorMessage.contains("Invalid credentials"));
+        System.out.println("Login Unsuccessful");
     }
 
     @Then("User closes browser")
     public void user_closes_browser(){
-        System.out.println("Login Successful");
         driver.quit();
     }
 

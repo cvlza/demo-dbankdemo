@@ -7,7 +7,7 @@ Feature: Login Functionality
     Then User is login successfully
     And User closes browser
 
-  @Negative @Test
+  @Negative
   Scenario: Unsuccessful login
     Given User is in Login Page
     When User enters "standard_users" and "secret_sauce"
